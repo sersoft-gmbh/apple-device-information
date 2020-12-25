@@ -2,8 +2,8 @@
 
 [![GitHub release](https://img.shields.io/github/release/sersoft-gmbh/apple-device-information.svg?style=flat)](https://github.com/sersoft-gmbh/apple-device-information/releases/latest)
 ![Tests](https://github.com/sersoft-gmbh/apple-device-information/workflows/Tests/badge.svg)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8932a462fa6d4cd6b2850069c68195c0)](https://www.codacy.com/gh/sersoft-gmbh/apple-device-information/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/apple-device-information&amp;utm_campaign=Badge_Grade)
-[![codecov](https://codecov.io/gh/sersoft-gmbh/apple-device-information/branch/master/graph/badge.svg?token=zTgWMfSyCb)](https://codecov.io/gh/sersoft-gmbh/apple-device-information)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/929f794d2d28496a8195bf50def99d7e)](https://www.codacy.com/gh/sersoft-gmbh/apple-device-information/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/apple-device-information&amp;utm_campaign=Badge_Grade)
+[![codecov](https://codecov.io/gh/sersoft-gmbh/apple-device-information/branch/main/graph/badge.svg?token=CI3ZFQGY7C)](https://codecov.io/gh/sersoft-gmbh/apple-device-information)
 [![jazzy](https://raw.githubusercontent.com/sersoft-gmbh/apple-device-information/gh-pages/badge.svg?sanitize=true)](https://sersoft-gmbh.github.io/apple-device-information)
 
 A database of device information which includes a mapping of device model identifiers to names.
