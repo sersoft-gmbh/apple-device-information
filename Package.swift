@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "apple-device-identifieres",
+    name: "apple-device-information",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "DeviceIdentifiers",
-            targets: ["DeviceIdentifiers"]),
+            name: "DeviceInformation",
+            targets: ["DeviceInformation"]),
     ],
     dependencies: [
         .package(url: "https://github.com/sersoft-gmbh/swift-sysctl.git", from: "1.0.0"),
@@ -18,12 +18,15 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "DeviceIdentifiers",
+            name: "DeviceInformation",
             dependencies: [
                 .product(name: "Sysctl", package: "swift-sysctl"),
             ]),
         .testTarget(
-            name: "DeviceIdentifiersTests",
-            dependencies: ["DeviceIdentifiers"]),
+            name: "DeviceInformationTests",
+            dependencies: [
+                .product(name: "Sysctl", package: "swift-sysctl"),
+                "DeviceInformation",
+            ]),
     ]
 )
