@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-sysctl",
+        "repositoryURL": "https://github.com/sersoft-gmbh/swift-sysctl.git",
+        "state": {
+          "branch": null,
+          "revision": "ea08884e42d9332540857352b6b3c99ce4b4f733",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

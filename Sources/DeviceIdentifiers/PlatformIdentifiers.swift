@@ -1,4 +1,4 @@
-import Darwin
+import Sysctl
 
 private let _platformNameMapping = [
     "iPhone1,1"        : "iPhone 1G",
@@ -157,11 +157,15 @@ private let _platformNameMapping = [
 ]
 
 @usableFromInline
-func _currentMachineIdentifier() -> String {
-    _sysctl(byName: "hw.machine")
+func _currentDeviceIdentifier() -> String {
+    #if os(macOS)
+    return SystemControl().hardware.model
+    #else
+    return SystemControl().hardware.machine
+    #endif
 }
 
 @usableFromInline
-func _currentMachineName(forIdentifier identifier: String = _currentMachineIdentifier()) -> String? {
+func _currentDeviceName(forIdentifier identifier: String = _currentDeviceIdentifier()) -> String? {
     _platformNameMapping[identifier]
 }

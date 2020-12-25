@@ -4,8 +4,8 @@ import XCTest
 final class DeviceInfoTests: XCTestCase {
     func testCurrentDeviceInfo() {
         let deviceInfo = DeviceInfo.current
-        XCTAssertEqual(deviceInfo.identifier, _currentMachineIdentifier())
-        XCTAssertEqual(deviceInfo.name, _currentMachineName())
+        XCTAssertEqual(deviceInfo.identifier, _currentDeviceIdentifier())
+        XCTAssertEqual(deviceInfo.name, _currentDeviceName())
         XCTAssertEqual(deviceInfo.id, deviceInfo.identifier)
     }
 }
