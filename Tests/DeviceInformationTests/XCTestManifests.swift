@@ -7,6 +7,7 @@ extension DeviceInfoTests {
     // to regenerate.
     static let __allTests__DeviceInfoTests = [
         ("testCurrentDeviceInfo", testCurrentDeviceInfo),
+        ("testSwiftUIEnvironment", testSwiftUIEnvironment),
     ]
 }
 

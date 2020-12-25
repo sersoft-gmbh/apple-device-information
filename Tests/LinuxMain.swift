@@ -1,8 +1,8 @@
 import XCTest
 
-import DeviceIdentifiersTests
+import DeviceInformationTests
 
 var tests = [XCTestCaseEntry]()
-tests += DeviceIdentifiersTests.__allTests()
+tests += DeviceInformationTests.__allTests()
 
 XCTMain(tests)
