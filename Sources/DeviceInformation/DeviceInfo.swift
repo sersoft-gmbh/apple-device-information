@@ -65,7 +65,8 @@ extension DeviceInfo {
     public static let current = DeviceInfo()
 }
 
-#if canImport(SwiftUI)
+#if canImport(Combine) && canImport(SwiftUI)
+import Combine
 import SwiftUI
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
@@ -82,7 +83,7 @@ extension DeviceInfo {
 }
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
-extension EnvironmentValues {
+extension SwiftUI.EnvironmentValues {
     /// The device info of the current device.
     @inlinable
     public var deviceInfo: DeviceInfo { self[DeviceInfo.EnvKey.self] }
