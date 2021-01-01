@@ -16,7 +16,7 @@ public struct DeviceInfo: Equatable, Identifiable {
         public let build: String
 
         static func currentName() -> String {
-            #if canImport(UIKit)
+            #if canImport(UIKit) && !targetEnvironment(macCatalyst)
             return UIDevice.current.systemName
             #elseif os(macOS) || targetEnvironment(macCatalyst)
             return "macOS"
