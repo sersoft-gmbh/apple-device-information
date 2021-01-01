@@ -9,7 +9,7 @@ import SwiftUI
 final class DeviceInfoTests: XCTestCase {
     func testCurrentDeviceInfo() {
         let deviceInfo = DeviceInfo.current
-        #if os(macOS)
+        #if os(macOS) || targetEnvironment(macCatalyst)
         XCTAssertEqual(deviceInfo.identifier, SystemControl().hardware.model)
         #else
         XCTAssertEqual(deviceInfo.identifier, SystemControl().hardware.machine)

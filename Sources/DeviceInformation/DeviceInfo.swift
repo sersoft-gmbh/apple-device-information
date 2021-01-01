@@ -30,7 +30,7 @@ public struct DeviceInfo: Equatable, Identifiable {
         }
 
         init() {
-            name = Self.currentName()
+            name = OperatingSystem.currentName()
             let osVersion = ProcessInfo.processInfo.operatingSystemVersion
             version = "\(osVersion.majorVersion).\(osVersion.minorVersion).\(osVersion.patchVersion)"
             build = SystemControl().kernel.osBuild
