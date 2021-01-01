@@ -18,7 +18,7 @@ public struct DeviceInfo: Equatable, Identifiable {
         static func currentName() -> String {
             #if canImport(UIKit)
             return UIDevice.current.systemName
-            #elseif os(macOS)
+            #elseif os(macOS) || targetEnvironment(macCatalyst)
             return "macOS"
             #elseif os(Linux)
             return "Linux"
@@ -50,12 +50,12 @@ public struct DeviceInfo: Equatable, Identifiable {
     public var id: String { identifier }
 
     init() {
-        #if os(macOS)
+        #if os(macOS) || targetEnvironment(macCatalyst)
         identifier = SystemControl().hardware.model
         #else
         identifier = SystemControl().hardware.machine
         #endif
-        name = Self._deviceIdentifierToNameMapping[identifier]
+        name = DeviceInfo._deviceIdentifierToNameMapping[identifier]
         operatingSystem = .init()
     }
 }
