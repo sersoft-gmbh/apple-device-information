@@ -65,6 +65,7 @@ extension DeviceInfo {
     public static let current = DeviceInfo()
 }
 
+#if arch(arm64) || arch(x86_64)
 #if canImport(Combine) && canImport(SwiftUI)
 import Combine
 import SwiftUI
@@ -88,4 +89,5 @@ extension SwiftUI.EnvironmentValues {
     @inlinable
     public var deviceInfo: DeviceInfo { self[DeviceInfo.EnvKey.self] }
 }
+#endif
 #endif
