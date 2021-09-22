@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/sersoft-gmbh/swift-sysctl.git",
         "state": {
           "branch": null,
-          "revision": "ea08884e42d9332540857352b6b3c99ce4b4f733",
-          "version": "1.0.0"
+          "revision": "25fc97674f13716b77e4bef32f5dd57ba9ab828e",
+          "version": "1.3.0"
         }
       }
     ]
