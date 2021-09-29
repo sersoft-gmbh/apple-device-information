@@ -3,6 +3,7 @@ import Sysctl
 extension DeviceInfo {
     // TODO: Add Macs
     static let _deviceIdentifierToNameMapping = [
+        // MARK: iPhones
         "iPhone1,1"        : "iPhone 1G",
         "iPhone1,2"        : "iPhone 3G",
         "iPhone2,1"        : "iPhone 3GS",
@@ -42,7 +43,12 @@ extension DeviceInfo {
         "iPhone13,2"       : "iPhone 12",
         "iPhone13,3"       : "iPhone 12 Pro",
         "iPhone13,4"       : "iPhone 12 Pro Max",
+        "iPhone14,2"       : "iPhone 13 Pro",
+        "iPhone14,3"       : "iPhone 13 Pro Max",
+        "iPhone14,4"       : "iPhone 13 mini",
+        "iPhone14,5"       : "iPhone 13",
 
+        // MARK: Watch
         "Watch1,1"         : "Apple Watch 38mm",
         "Watch1,2"         : "Apple Watch 42mm",
         "Watch2,6"         : "Apple Watch Series 1 38mm",
@@ -70,6 +76,7 @@ extension DeviceInfo {
         "Watch6,3"         : "Apple Watch Series 6 40mm (Cellular)",
         "Watch6,4"         : "Apple Watch Series 6 44mm (Cellular)",
 
+        // MARK: iPod
         "iPod1,1"          : "iPod Touch 1G",
         "iPod2,1"          : "iPod Touch 2G",
         "iPod3,1"          : "iPod Touch 3G",
@@ -78,6 +85,7 @@ extension DeviceInfo {
         "iPod7,1"          : "iPod Touch 6G",
         "iPod9,1"          : "iPod Touch 7G",
 
+        // MARK: iPad
         "iPad1,1"          : "iPad",
         "iPad2,1"          : "iPad 2 (WiFi)",
         "iPad2,2"          : "iPad 2 (GSM)",
@@ -136,25 +144,59 @@ extension DeviceInfo {
         "iPad11,4"         : "iPad Air 3rd Gen (Cellular)",
         "iPad11,6"         : "iPad (9.7\" 8th Gen) (WiFi)",
         "iPad11,7"         : "iPad (9.7\" 8th Gen) (Cellular)",
+        "iPad12,1"         : "iPad (9th Gen) (WiFi)",
+        "iPad12,2"         : "iPad (9th Gen) (Cellular)",
         "iPad13,1"         : "iPad Air 4th Gen (WiFi)",
         "iPad13,2"         : "iPad Air 4th Gen (Cellular)",
+        "iPad13,4"         : "iPad Pro (11\" 3rd Gen) (WiFi)",
+        "iPad13,5"         : "iPad Pro (11\" 3rd Gen) (WiFi)",
+        "iPad13,6"         : "iPad Pro (11\" 3rd Gen) (Cellular)",
+        "iPad13,7"         : "iPad Pro (11\" 3rd Gen) (Cellular)",
+        "iPad13,8"         : "iPad Pro (12.9\" 3rd Gen) (WiFi)",
+        "iPad13,9"         : "iPad Pro (12.9\" 3rd Gen) (WiFi)",
+        "iPad13,10"        : "iPad Pro (12.9\" 3rd Gen) (Cellular)",
+        "iPad13,11"        : "iPad Pro (12.9\" 3rd Gen) (Cellular)",
+        "iPad14,1"         : "iPad mini 6 (WiFi)",
+        "iPad14,2"         : "iPad mini 6 (Cellular)",
 
+        // MARK: AppleTV
+        "AppleTV1,1"       : "Apple TV 1G",
         "AppleTV2,1"       : "Apple TV 2G",
         "AppleTV3,1"       : "Apple TV 3G",
         "AppleTV3,2"       : "Apple TV 3G",
         "AppleTV5,3"       : "Apple TV 4G",
         "AppleTV6,2"       : "Apple TV 4K",
+        "AppleTV11,1"      : "Apple TV 4K (2nd Gen)",
 
+        // MARK: Simulator
         "i386"             : "Simulator",
         "x86_64"           : "Simulator",
         "arm64"            : "Simulator",
 
+        // MARK: AirPods
         "AirPods1,1"       : "AirPods (1st Gen)",
         "AirPods2,1"       : "AirPods (2nd Gen)",
+        "AirPods2,2"       : "AirPods Pro",
         "iProd8,1"         : "AirPods Pro",
+        "iProd8,6"         : "AirPods Max",
 
+        // MARK: HomePod
         "AudioAccessory1,1": "HomePod",
         "AudioAccessory1,2": "HomePod",
         "AudioAccessory5,1": "HomePod Mini",
+
+        // MARK: AirTags
+        "AirTag1,1"        : "AirTags",
+
+
+        // MARK: Macs
+        "iMac21,1"         : "iMac 24\" M1 2021",
+        "iMac21,2"         : "iMac 24\" M1 2021",
+
+        "MacMini9,1"       : "Mac Mini M1 2020",
+
+        "MacBookAir10,1"   : "MacBook Air M1 2020",
+
+        "MacBookPro17,1"   : "MacBook Pro 13\" M1 2020",
     ]
 }
