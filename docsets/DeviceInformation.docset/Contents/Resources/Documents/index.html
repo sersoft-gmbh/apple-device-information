@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DeviceInformation  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="DeviceInformation  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          DeviceInformation 1.4.0 Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/sersoft-gmbh/apple-device-information">
+            <img class="header-icon" src="img/gh.png" alt="GitHub"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">DeviceInformation Reference</a>
+      <img class="carat" src="img/carat.png" alt=""/>
+      DeviceInformation  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/SwiftUI.html">SwiftUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/SwiftUI/EnvironmentValues.html">– EnvironmentValues</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/DeviceInfo.html">DeviceInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/DeviceInfo/OperatingSystem.html">– OperatingSystem</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <h1 id='apple-device-information' class='heading'>Apple Device Information</h1>
+
+<p><a href="https://github.com/sersoft-gmbh/apple-device-information/releases/latest"><img src="https://img.shields.io/github/release/sersoft-gmbh/apple-device-information.svg?style=flat" alt="GitHub release"></a>
+<img src="https://github.com/sersoft-gmbh/apple-device-information/workflows/Tests/badge.svg" alt="Tests">
+<a href="https://www.codacy.com/gh/sersoft-gmbh/apple-device-information/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/apple-device-information&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/929f794d2d28496a8195bf50def99d7e" alt="Codacy Badge"></a>
+<a href="https://codecov.io/gh/sersoft-gmbh/apple-device-information"><img src="https://codecov.io/gh/sersoft-gmbh/apple-device-information/branch/main/graph/badge.svg?token=CI3ZFQGY7C" alt="codecov"></a>
+<a href="https://sersoft-gmbh.github.io/apple-device-information"><img src="https://raw.githubusercontent.com/sersoft-gmbh/apple-device-information/gh-pages/badge.svg?sanitize=true" alt="jazzy"></a></p>
+
+<p>A database of device information which includes a mapping of device model identifiers to names.</p>
+<h2 id='installation' class='heading'>Installation</h2>
+
+<p>Add the following dependency to your <code>Package.swift</code>:</p>
+<pre class="highlight swift"><code><span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/sersoft-gmbh/apple-device-information.git"</span><span class="p">,</span> <span class="nv">from</span><span class="p">:</span> <span class="s">"1.0.0"</span><span class="p">),</span>
+</code></pre>
+<h2 id='usage' class='heading'>Usage</h2>
+<h3 id='code-deviceinfo-code' class='heading'><code><a href="Structs/DeviceInfo.html">DeviceInfo</a></code></h3>
+
+<p>Simply access <code><a href="Structs/DeviceInfo.html#/s:17DeviceInformation0A4InfoV7currentACvpZ">DeviceInfo.current</a></code> and you have access to all information this package currently offers.
+For a more detailed documentation of the fields, please have a look at the header docs.</p>
+<h2 id='documentation' class='heading'>Documentation</h2>
+
+<p>The API is documented using header doc. If you prefer to view the documentation as a webpage, there is an <a href="https://sersoft-gmbh.github.io/apple-device-informatino">online version</a> available for you.</p>
+<h2 id='contributing' class='heading'>Contributing</h2>
+
+<p>If you find a bug / like to see a new feature in this package there are a few ways of helping out:</p>
+
+<ul>
+<li>If you can fix the bug / implement the feature yourself please do and open a PR.</li>
+<li>If you know how to code (which you probably do), please add a (failing) test and open a PR. We&rsquo;ll try to get your test green ASAP.</li>
+<li>If you can do neither, then open an issue. While this might be the easiest way, it will likely take the longest for the bug to be fixed / feature to be implemented.</li>
+</ul>
+<h2 id='license' class='heading'>License</h2>
+
+<p>See <a href="./LICENSE">LICENSE</a> file.</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2022 <a class="link" href="https://sersoft.de" target="_blank" rel="external noopener">ser.soft GmbH</a>. All rights reserved. (Last updated: 2022-03-17)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>
