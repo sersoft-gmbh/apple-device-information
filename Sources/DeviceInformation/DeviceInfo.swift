@@ -16,17 +16,32 @@ public struct DeviceInfo: Equatable, Identifiable {
         public let build: String
 
         static func currentName() -> String {
-            #if canImport(UIKit) && !targetEnvironment(macCatalyst)
+            // Keep up to date with https://github.com/apple/swift/blob/main/lib/Basic/LangOptions.cpp
+#if canImport(UIKit) && !targetEnvironment(macCatalyst) // os(iOS) os(tvOS) os(watchOS)
             return UIDevice.current.systemName
-            #elseif os(macOS) || targetEnvironment(macCatalyst)
+#elseif os(macOS) || targetEnvironment(macCatalyst)
             return "macOS"
-            #elseif os(Linux)
+#elseif os(Linux)
             return "Linux"
-            #elseif os(Windows)
+#elseif os(FreeBSD)
+            return "FreeBSD"
+#elseif os(OpenBSD)
+            return "OpenBSD"
+#elseif os(Windows)
             return "Windows"
-            #else
+#elseif os(Android)
+            return "Android"
+#elseif os(PS4)
+            return "PS4"
+#elseif os(Cygwin)
+            return "Cygwin"
+#elseif os(Haiku)
+            return "Haiku"
+#elseif os(WASI)
+            return "Web Assembly"
+#else
             return "Unknown"
-            #endif
+#endif
         }
 
         init() {
@@ -50,11 +65,11 @@ public struct DeviceInfo: Equatable, Identifiable {
     public var id: String { identifier }
 
     init() {
-        #if os(macOS) || targetEnvironment(macCatalyst)
+#if os(macOS) || targetEnvironment(macCatalyst)
         identifier = SystemControl().hardware.model
-        #else
+#else
         identifier = SystemControl().hardware.machine
-        #endif
+#endif
         name = DeviceInfo._deviceIdentifierToNameMapping[identifier]
         operatingSystem = .init()
     }
@@ -90,4 +105,9 @@ extension SwiftUI.EnvironmentValues {
     public var deviceInfo: DeviceInfo { self[DeviceInfo.EnvKey.self] }
 }
 #endif
+#endif
+
+#if compiler(>=5.5.2) && canImport(_Concurrency)
+extension DeviceInfo: Sendable {}
+extension DeviceInfo.OperatingSystem: Sendable {}
 #endif

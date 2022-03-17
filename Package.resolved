@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "swift-sysctl",
-        "repositoryURL": "https://github.com/sersoft-gmbh/swift-sysctl.git",
-        "state": {
-          "branch": null,
-          "revision": "25fc97674f13716b77e4bef32f5dd57ba9ab828e",
-          "version": "1.3.0"
-        }
+  "pins" : [
+    {
+      "identity" : "swift-sysctl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sersoft-gmbh/swift-sysctl.git",
+      "state" : {
+        "revision" : "c02a0e2cdf36fc057a6a219217a3bcd834772a98",
+        "version" : "1.4.0"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }

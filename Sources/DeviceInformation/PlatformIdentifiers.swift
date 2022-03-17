@@ -1,7 +1,6 @@
 import Sysctl
 
 extension DeviceInfo {
-    // TODO: Add Macs
     static let _deviceIdentifierToNameMapping = [
         // MARK: iPhones
         "iPhone1,1"        : "iPhone 1G",
@@ -47,6 +46,7 @@ extension DeviceInfo {
         "iPhone14,3"       : "iPhone 13 Pro Max",
         "iPhone14,4"       : "iPhone 13 mini",
         "iPhone14,5"       : "iPhone 13",
+        "iPhone14,6"       : "iPhone SE (3rd Gen)",
 
         // MARK: Watch
         "Watch1,1"         : "Apple Watch 38mm",
@@ -75,6 +75,10 @@ extension DeviceInfo {
         "Watch6,2"         : "Apple Watch Series 6 44mm",
         "Watch6,3"         : "Apple Watch Series 6 40mm (Cellular)",
         "Watch6,4"         : "Apple Watch Series 6 44mm (Cellular)",
+        "Watch6,6"         : "Apple Watch Series 7 41mm",
+        "Watch6,7"         : "Apple Watch Series 7 45mm",
+        "Watch6,8"         : "Apple Watch Series 7 41mm (Cellular)",
+        "Watch6,9"         : "Apple Watch Series 7 45mm (Cellular)",
 
         // MARK: iPod
         "iPod1,1"          : "iPod Touch 1G",
@@ -150,8 +154,8 @@ extension DeviceInfo {
         "iPad13,2"         : "iPad Air 4th Gen (Cellular)",
         "iPad13,4"         : "iPad Pro (11\" 3rd Gen) (WiFi)",
         "iPad13,5"         : "iPad Pro (11\" 3rd Gen) (WiFi)",
-        "iPad13,6"         : "iPad Pro (11\" 3rd Gen) (Cellular)",
-        "iPad13,7"         : "iPad Pro (11\" 3rd Gen) (Cellular)",
+        "iPad13,6"         : "iPad Pro (11\" 3rd Gen) (Cellular) | iPad Air 4th Gen (WiFi)",
+        "iPad13,7"         : "iPad Pro (11\" 3rd Gen) (Cellular) | iPad Air 4th Gen (Cellular)",
         "iPad13,8"         : "iPad Pro (12.9\" 3rd Gen) (WiFi)",
         "iPad13,9"         : "iPad Pro (12.9\" 3rd Gen) (WiFi)",
         "iPad13,10"        : "iPad Pro (12.9\" 3rd Gen) (Cellular)",
@@ -175,10 +179,15 @@ extension DeviceInfo {
 
         // MARK: AirPods
         "AirPods1,1"       : "AirPods (1st Gen)",
+        "AirPods1,2"       : "AirPods (2nd Gen)",
         "AirPods2,1"       : "AirPods (2nd Gen)",
+        "AirPods1,3"       : "AirPods (3nd Gen)",
+        "Audio2,1"         : "AirPods (3nd Gen)",
         "AirPods2,2"       : "AirPods Pro",
         "iProd8,1"         : "AirPods Pro",
+        "AirPodsPro1,1"    : "AirPods Pro",
         "iProd8,6"         : "AirPods Max",
+        "AirPodsMax1,1"    : "AirPods Max",
 
         // MARK: HomePod
         "AudioAccessory1,1": "HomePod",
@@ -189,6 +198,7 @@ extension DeviceInfo {
         "AirTag1,1"        : "AirTags",
 
 
+        // TODO: Add (more / older) Macs
         // MARK: Macs
         "iMac21,1"         : "iMac 24\" M1 2021",
         "iMac21,2"         : "iMac 24\" M1 2021",
@@ -198,5 +208,9 @@ extension DeviceInfo {
         "MacBookAir10,1"   : "MacBook Air M1 2020",
 
         "MacBookPro17,1"   : "MacBook Pro 13\" M1 2020",
+        "MacBookPro18,1"   : "MacBook Pro 16\" M1 Pro 2021",
+        "MacBookPro18,2"   : "MacBook Pro 16\" M1 Max 2021",
+        "MacBookPro18,3"   : "MacBook Pro 14\" M1 Pro 2021",
+        "MacBookPro18,4"   : "MacBook Pro 14\" M1 Max 2021",
     ]
 }
