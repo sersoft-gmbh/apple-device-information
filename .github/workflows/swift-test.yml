@@ -33,7 +33,7 @@ jobs:
       - name: Read Swift Version
         uses: sersoft-gmbh/swift-version-action@v1.0.1
         id: swift-version
-      - uses: actions/checkout@v3.0.0
+      - uses: actions/checkout@v3.0.1
       - uses: actions/cache@v3.0.2
         with:
           path: .build
@@ -81,7 +81,7 @@ jobs:
       - name: Read Swift Version
         uses: sersoft-gmbh/swift-version-action@v1.0.1
         id: swift-version
-      - uses: actions/checkout@v3.0.0
+      - uses: actions/checkout@v3.0.1
       - name: Workaround Package.resolved format issues
         if: ${{ startsWith(steps.swift-version.outputs.version, '5.5') }}
         run: rm -rf Package.resolved
