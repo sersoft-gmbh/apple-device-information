@@ -1,0 +1,108 @@
+{
+  "abstract" : [
+    {
+      "text" : "",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "DeviceInformation",
+    "modules" : [
+      {
+        "name" : "DeviceInformation"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "DeviceInformation"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo"
+      ],
+      "title" : "Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/deviceinformation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://DeviceInformation/documentation/DeviceInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DeviceInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information about a device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DeviceInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo"
+}
+}
+}
