@@ -47,6 +47,10 @@ extension DeviceInfo {
         "iPhone14,4"       : "iPhone 13 mini",
         "iPhone14,5"       : "iPhone 13",
         "iPhone14,6"       : "iPhone SE (3rd Gen)",
+        "iPhone14,7"       : "iPhone 14",
+        "iPhone14,8"       : "iPhone 14 Plus",
+        "iPhone15,2"       : "iPhone 14 Pro",
+        "iPhone15,3"       : "iPhone 14 Pro Max",
 
         // MARK: Watch
         "Watch1,1"         : "Apple Watch 38mm",
@@ -160,6 +164,8 @@ extension DeviceInfo {
         "iPad13,9"         : "iPad Pro (12.9\" 3rd Gen) (WiFi)",
         "iPad13,10"        : "iPad Pro (12.9\" 3rd Gen) (Cellular)",
         "iPad13,11"        : "iPad Pro (12.9\" 3rd Gen) (Cellular)",
+        "iPad13,16"        : "iPad Air 5 (WiFi)",
+        "iPad13,17"        : "iPad Air 5 (Cellular)",
         "iPad14,1"         : "iPad mini 6 (WiFi)",
         "iPad14,2"         : "iPad mini 6 (Cellular)",
 
