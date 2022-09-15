@@ -48,11 +48,11 @@ public struct DeviceInfo: Equatable, Identifiable {
 #endif
         }
 
-        init() {
+        init(sysctl: SystemControl) {
             name = OperatingSystem.currentName()
             let osVersion = ProcessInfo.processInfo.operatingSystemVersion
             version = "\(osVersion.majorVersion).\(osVersion.minorVersion).\(osVersion.patchVersion)"
-            build = SystemControl().kernel.osBuild
+            build = sysctl.kernel.osBuild
         }
     }
 
@@ -69,18 +69,19 @@ public struct DeviceInfo: Equatable, Identifiable {
     public var id: String { identifier }
 
     init() {
+        let sysctl = SystemControl()
 #if os(macOS) || targetEnvironment(macCatalyst)
-        identifier = SystemControl().hardware.model
+        identifier = sysctl.hardware.model
 #else
-        identifier = SystemControl().hardware.machine
+        identifier = sysctl.hardware.machine
 #endif
         name = DeviceInfo._deviceIdentifierToNameMapping[identifier]
-        operatingSystem = .init()
+        operatingSystem = .init(sysctl: sysctl)
     }
 }
 
 extension DeviceInfo {
-    /// The informatino for the current device.
+    /// The information for the current device.
     public static let current = DeviceInfo()
 }
 
