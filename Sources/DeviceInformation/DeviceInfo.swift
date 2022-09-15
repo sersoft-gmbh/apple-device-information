@@ -1,5 +1,7 @@
 import Foundation
-#if canImport(UIKit)
+#if canImport(WatchKit)
+import class WatchKit.WKInterfaceDevice
+#elseif canImport(UIKit)
 import class UIKit.UIDevice
 #endif
 import Sysctl
@@ -17,7 +19,9 @@ public struct DeviceInfo: Equatable, Identifiable {
 
         static func currentName() -> String {
             // Keep up to date with https://github.com/apple/swift/blob/main/lib/Basic/LangOptions.cpp
-#if canImport(UIKit) && !targetEnvironment(macCatalyst) // os(iOS) os(tvOS) os(watchOS)
+#if canImport(WatchKit) // os(watchOS)
+            return WKInterfaceDevice.current().systemName
+#elseif canImport(UIKit) && !targetEnvironment(macCatalyst) // os(iOS) os(tvOS)
             return UIDevice.current.systemName
 #elseif os(macOS) || targetEnvironment(macCatalyst)
             return "macOS"
