@@ -252,7 +252,7 @@
 "doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/current": {
   "abstract" : [
     {
-      "text" : "The informatino for the current device.",
+      "text" : "The information for the current device.",
       "type" : "text"
     }
   ],
