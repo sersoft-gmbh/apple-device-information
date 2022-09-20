@@ -83,6 +83,7 @@ extension DeviceInfo {
         "Watch6,7"         : "Apple Watch Series 7 45mm",
         "Watch6,8"         : "Apple Watch Series 7 41mm (Cellular)",
         "Watch6,9"         : "Apple Watch Series 7 45mm (Cellular)",
+        "Watch6,18"        : "Apple Watch Ultra",
 
         // MARK: iPod
         "iPod1,1"          : "iPod Touch 1G",
@@ -189,9 +190,10 @@ extension DeviceInfo {
         "AirPods2,1"       : "AirPods (2nd Gen)",
         "AirPods1,3"       : "AirPods (3nd Gen)",
         "Audio2,1"         : "AirPods (3nd Gen)",
-        "AirPods2,2"       : "AirPods Pro",
-        "iProd8,1"         : "AirPods Pro",
-        "AirPodsPro1,1"    : "AirPods Pro",
+        "AirPods2,2"       : "AirPods Pro (1st Gen)",
+        "iProd8,1"         : "AirPods Pro (1st Gen)",
+        "AirPodsPro1,1"    : "AirPods Pro (1st Gen)",
+        "AirPodsPro1,2"    : "AirPods Pro (2nd Gen)",
         "iProd8,6"         : "AirPods Max",
         "AirPodsMax1,1"    : "AirPods Max",
 
