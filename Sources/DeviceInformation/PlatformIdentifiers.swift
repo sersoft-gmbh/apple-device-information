@@ -83,7 +83,15 @@ extension DeviceInfo {
         "Watch6,7"         : "Apple Watch Series 7 45mm",
         "Watch6,8"         : "Apple Watch Series 7 41mm (Cellular)",
         "Watch6,9"         : "Apple Watch Series 7 45mm (Cellular)",
-        "Watch6,18"        : "Apple Watch Ultra",
+        "Watch6,10"        : "Apple Watch SE (2nd Gen) 41mm",
+        "Watch6,11"        : "Apple Watch SE (2nd Gen) 45mm",
+        "Watch6,12"        : "Apple Watch SE (2nd Gen) 41mm (Cellular)",
+        "Watch6,13"        : "Apple Watch SE (2nd Gen) 45mm (Cellular)",
+        "Watch6,14"        : "Apple Watch Series 8 41mm",
+        "Watch6,15"        : "Apple Watch Series 8 45mm",
+        "Watch6,16"        : "Apple Watch Series 8 41mm (Cellular)",
+        "Watch6,17"        : "Apple Watch Series 8 45mm (Cellular)",
+        "Watch6,18"        : "Apple Watch Ultra 49mm",
 
         // MARK: iPod
         "iPod1,1"          : "iPod Touch 1G",

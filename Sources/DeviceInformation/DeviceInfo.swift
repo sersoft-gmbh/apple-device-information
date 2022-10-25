@@ -7,9 +7,9 @@ import class UIKit.UIDevice
 import Sysctl
 
 /// Contains the information about a device.
-public struct DeviceInfo: Equatable, Identifiable {
+public struct DeviceInfo: Equatable, Identifiable, Sendable {
     /// Contains the information about the operating system of a device.
-    public struct OperatingSystem: Equatable {
+    public struct OperatingSystem: Equatable, Sendable {
         /// The name of the operating system (e.g. iOS or macOS)
         public let name: String
         /// The version of the operating system (e.g. 14.3.0 or 11.0.0)
@@ -110,9 +110,4 @@ extension SwiftUI.EnvironmentValues {
     public var deviceInfo: DeviceInfo { self[DeviceInfo.EnvKey.self] }
 }
 #endif
-#endif
-
-#if compiler(>=5.5.2) && canImport(_Concurrency)
-extension DeviceInfo: Sendable {}
-extension DeviceInfo.OperatingSystem: Sendable {}
 #endif
