@@ -128,6 +128,7 @@ jobs:
           key: ${{ runner.os }}-${{ steps.os-version.outputs.version }}-xcode-${{ steps.swift-version.outputs.version }}-${{ steps.destination.outputs.cache-key }}-${{ hashFiles('**/Package.resolved') }}
           restore-keys: |
             ${{ runner.os }}-${{ steps.os-version.outputs.version }}-xcode-${{ steps.swift-version.outputs.version }}-${{ steps.destination.outputs.cache-key }}-
+      - run: ls -al
       - uses: sersoft-gmbh/xcodebuild-action@v2.0.1
         with:
           spm-package: './'
