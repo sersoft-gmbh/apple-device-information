@@ -128,9 +128,9 @@ jobs:
             ${{ runner.os }}-${{ steps.os-version.outputs.version }}-spm-${{ steps.swift-version.outputs.version }}-
       - name: Work around PIF issues
         env:
-          MAX_ATTEMPTS: 5
           SCHEME_NAME: apple-device-information
           DESTINATION: ${{ steps.destination.outputs.xcode }}
+          MAX_ATTEMPTS: 5
         run: |
           swift package dump-pif > /dev/null
           ATTEMPT=0
