@@ -4,4 +4,6 @@
 /*.xcodeproj
 xcuserdata/
 
+.derived-data
+
 /.swiftpm
