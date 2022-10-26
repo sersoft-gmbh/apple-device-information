@@ -88,37 +88,21 @@ jobs:
       - name: Read Swift Version
         uses: sersoft-gmbh/swift-version-action@v2.0.1
         id: swift-version
-      - name: Compose destination
+      - name: Select destination
         id: destination
         env:
           PLATFORM: ${{ matrix.platform }}
         run: |
-          if [ "${PLATFORM}" == 'macOS' ]; then
-            echo "xcode=platform=${PLATFORM}" >> "${GITHUB_OUTPUT}"
-          else
-            REAL_PLATFORM="${PLATFORM}"
-            DEV_NAME=''
-            case "${PLATFORM}" in
-              'iOS')
-                DEV_NAME='iPhone 13 Pro'
-                ;;
-              'iPadOS')
-                REAL_PLATFORM='iOS'
-                DEV_NAME='iPad Pro (11-inch) (3rd generation)'
-                ;;
-              'tvOS')
-                DEV_NAME='Apple TV 4K (2nd generation)'
-                ;;
-              'watchOS')
-                DEV_NAME='Apple Watch Series 7 (45mm)'
-                ;;
-              *)
-                echo "::error title=Unknown platform!::Unknown platform: ${PLATFORM}"
-                exit 1
-                ;;
-            esac
-            echo "xcode=platform=${REAL_PLATFORM} Simulator,OS=latest,name=${DEV_NAME}" >> "${GITHUB_OUTPUT}"
-          fi
+          DESTINATION=''
+          case "${PLATFORM}" in
+            'macOS')   DESTINATION='platform=macOS';;
+            'iOS')     DESTINATION='platform=iOS Simulator,OS=latest,name=iPhone 13 Pro';;
+            'iPadOS')  DESTINATION='platform=iOS Simulator,OS=latest,name=iPad Pro (11-inch) (3rd generation)';;
+            'tvOS')    DESTINATION='platform=tvOS Simulator,OS=latest,name=Apple TV 4K (2nd generation)';;
+            'watchOS') DESTINATION='platform=watchOS Simulator,OS=latest,name=Apple Watch Series 7 (45mm)';;
+            *) echo "::error title=Unknown platform!::Unknown platform: ${PLATFORM}" && exit 1;;
+          esac
+          echo "xcode=${DESTINATION}" >> "${GITHUB_OUTPUT}"
       - uses: actions/checkout@v3.1.0
       - uses: actions/cache@v3.0.11
         with:
