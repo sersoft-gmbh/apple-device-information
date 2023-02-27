@@ -296,18 +296,7 @@
 },
 "doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/id-5pqoe": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Identifiable.id",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
