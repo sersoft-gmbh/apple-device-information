@@ -25,7 +25,7 @@ For a more detailed documentation of the fields, please have a look at the heade
 
 ## Documentation
 
-The API is documented using header doc. If you prefer to view the documentation as a webpage, there is an [online version](https://sersoft-gmbh.github.io/apple-device-informatino) available for you.
+The API is documented using header doc. If you prefer to view the documentation as a webpage, there is an [online version](https://sersoft-gmbh.github.io/apple-device-information) available for you.
 
 ## Contributing
 
