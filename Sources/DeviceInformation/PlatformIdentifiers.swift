@@ -1,5 +1,8 @@
 import Sysctl
 
+// Helpful pages:
+// - https://everymac.com/
+// - https://www.theiphonewiki.com/wiki/Main_Page
 extension DeviceInfo {
     static let _deviceIdentifierToNameMapping = [
         // MARK: iPhones
