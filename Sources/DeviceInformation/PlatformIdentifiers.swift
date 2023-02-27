@@ -177,6 +177,10 @@ extension DeviceInfo {
         "iPad13,17"        : "iPad Air 5 (Cellular)",
         "iPad14,1"         : "iPad mini 6 (WiFi)",
         "iPad14,2"         : "iPad mini 6 (Cellular)",
+        "iPad14,3"         : "iPad Pro (11\" 4th Gen) (WiFi)",
+        "iPad14,4"         : "iPad Pro (11\" 4th Gen) (Cellular)",
+        "iPad14,5"         : "iPad Pro (12.9\" 6th Gen) (WiFi)",
+        "iPad14,6"         : "iPad Pro (12.9\" 6th Gen) (Cellular)",
 
         // MARK: AppleTV
         "AppleTV1,1"       : "Apple TV 1G",
@@ -186,6 +190,7 @@ extension DeviceInfo {
         "AppleTV5,3"       : "Apple TV 4G",
         "AppleTV6,2"       : "Apple TV 4K",
         "AppleTV11,1"      : "Apple TV 4K (2nd Gen)",
+        "AppleTV14,1"      : "Apple TV 4K (3rd Gen)",
 
         // MARK: Simulator
         "i386"             : "Simulator",
@@ -209,6 +214,7 @@ extension DeviceInfo {
         "AudioAccessory1,1": "HomePod",
         "AudioAccessory1,2": "HomePod",
         "AudioAccessory5,1": "HomePod Mini",
+        "AudioAccessory6,1": "HomePod (2nd Gen)",
 
         // MARK: AirTags
         "AirTag1,1"        : "AirTags",
@@ -216,17 +222,28 @@ extension DeviceInfo {
 
         // TODO: Add (more / older) Macs
         // MARK: Macs
-        "iMac21,1"         : "iMac 24\" M1 2021",
-        "iMac21,2"         : "iMac 24\" M1 2021",
+        "iMac21,1"         : "iMac 24\" M1",
+        "iMac21,2"         : "iMac 24\" M1",
 
-        "MacMini9,1"       : "Mac Mini M1 2020",
+        "MacMini9,1"       : "Mac Mini M1",
+        "Mac14,3"          : "Mac Mini M2",
+        "Mac14,12"         : "Mac Mini M2 Pro",
 
-        "MacBookAir10,1"   : "MacBook Air M1 2020",
+        "MacBookAir10,1"   : "MacBook Air 13\" M1",
+        "Mac14,2"          : "MacBook Air 13\" M2",
 
-        "MacBookPro17,1"   : "MacBook Pro 13\" M1 2020",
-        "MacBookPro18,1"   : "MacBook Pro 16\" M1 Pro 2021",
-        "MacBookPro18,2"   : "MacBook Pro 16\" M1 Max 2021",
-        "MacBookPro18,3"   : "MacBook Pro 14\" M1 Pro 2021",
-        "MacBookPro18,4"   : "MacBook Pro 14\" M1 Max 2021",
+        "MacBookPro17,1"   : "MacBook Pro 13\" M1",
+        "MacBookPro18,1"   : "MacBook Pro 16\" M1 Pro",
+        "MacBookPro18,2"   : "MacBook Pro 16\" M1 Max",
+        "MacBookPro18,3"   : "MacBook Pro 14\" M1 Pro",
+        "MacBookPro18,4"   : "MacBook Pro 14\" M1 Max",
+        "Mac14,7"          : "MacBook Pro 13\" M2",
+        "Mac14,9"          : "MacBook Pro 14\" M2 Pro",
+        "Mac14,5"          : "MacBook Pro 14\" M2 Max",
+        "Mac14,10"         : "MacBook Pro 16\" M2 Pro",
+        "Mac14,6"          : "MacBook Pro 16\" M2 Max",
+
+        "Mac13,1"          : "Mac Studio M1 Max",
+        "Mac13,2"          : "Mac Studio M1 Ultra",
     ]
 }
