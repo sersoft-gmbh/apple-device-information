@@ -11,11 +11,11 @@ import SwiftUI
 final class DeviceInfoTests: XCTestCase {
     func testCurrentDeviceInfo() {
         let deviceInfo = DeviceInfo.current
-        #if os(macOS) || targetEnvironment(macCatalyst)
+#if os(macOS) || targetEnvironment(macCatalyst)
         XCTAssertEqual(deviceInfo.identifier, SystemControl().hardware.model)
-        #else
+#else
         XCTAssertEqual(deviceInfo.identifier, SystemControl().hardware.machine)
-        #endif
+#endif
         XCTAssertEqual(deviceInfo.id, deviceInfo.identifier)
         XCTAssertEqual(deviceInfo.name,
                        DeviceInfo._deviceIdentifierToNameMapping[deviceInfo.identifier])
@@ -26,14 +26,13 @@ final class DeviceInfoTests: XCTestCase {
         XCTAssertEqual(deviceInfo.operatingSystem.build, SystemControl().kernel.osBuild)
     }
 
-    #if arch(arm64) || arch(x86_64)
-    #if canImport(Combine) && canImport(SwiftUI)
+#if arch(arm64) || arch(x86_64)
+#if canImport(Combine) && canImport(SwiftUI)
     func testSwiftUIEnvironment() throws {
-        guard #available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *) else {
-            throw XCTSkip()
-        }
+        guard #available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
+        else { throw XCTSkip() }
         XCTAssertEqual(EnvironmentValues().deviceInfo, .current)
     }
-    #endif
-    #endif
+#endif
+#endif
 }

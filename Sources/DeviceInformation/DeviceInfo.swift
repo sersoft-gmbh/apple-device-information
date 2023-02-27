@@ -64,7 +64,6 @@ public struct DeviceInfo: Equatable, Identifiable, Sendable {
     /// The operating system information.
     public let operatingSystem: OperatingSystem
 
-    /// See `Identifiable.id`.
     @inlinable
     public var id: String { identifier }
 

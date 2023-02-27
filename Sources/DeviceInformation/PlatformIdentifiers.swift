@@ -1,5 +1,3 @@
-import Sysctl
-
 // Helpful pages:
 // - https://everymac.com/
 // - https://www.theiphonewiki.com/wiki/Main_Page
@@ -223,7 +221,6 @@ extension DeviceInfo {
         "AirTag1,1"        : "AirTags",
 
 
-        // TODO: Add (more / older) Macs
         // MARK: Macs
         "iMac21,1"         : "iMac 24\" M1",
         "iMac21,2"         : "iMac 24\" M1",
