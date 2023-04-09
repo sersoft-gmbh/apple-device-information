@@ -1,0 +1,148 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/build",
+                    "title" : "let build: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/name",
+                    "title" : "let name: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/version",
+                    "title" : "let version: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct",
+                "title" : "DeviceInfo.OperatingSystem",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/id-5pqoe",
+                "title" : "var id: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/identifier",
+                "title" : "let identifier: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/name",
+                "title" : "let name: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.property",
+                "title" : "let operatingSystem: DeviceInfo.OperatingSystem",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/current",
+                "title" : "static let current: DeviceInfo",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/deviceinformation\/deviceinfo\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/deviceinformation\/deviceinfo\/id-6rxxc",
+                    "title" : "var id: ObjectIdentifier",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/identifiable-implementations",
+                "title" : "Identifiable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/deviceinformation\/deviceinfo",
+            "title" : "DeviceInfo",
+            "type" : "struct"
+          }
+        ],
+        "path" : "\/documentation\/deviceinformation",
+        "title" : "DeviceInformation",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}
