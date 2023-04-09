@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sersoft-gmbh/swift-sysctl.git",
       "state" : {
-        "revision" : "e5eff5de7f3bbeab8f210431e83ccbd4e3ff967a",
-        "version" : "1.5.0"
+        "revision" : "71fd64ee84819bb19fbecfb36d5a4503726b6fb7",
+        "version" : "1.6.0"
       }
     }
   ],
