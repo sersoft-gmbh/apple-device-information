@@ -64,7 +64,7 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/deviceinformation\/deviceinfo\/id-5pqoe",
+                "path" : "\/documentation\/deviceinformation\/deviceinfo\/id",
                 "title" : "var id: String",
                 "type" : "property"
               },
@@ -111,6 +111,21 @@
                 "path" : "\/documentation\/deviceinformation\/deviceinfo\/equatable-implementations",
                 "title" : "Equatable Implementations",
                 "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/deviceinformation\/deviceinfo",
+            "title" : "DeviceInfo",
+            "type" : "struct"
+          },
+          {
+            "title" : "Extended Modules",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
               },
               {
                 "children" : [
@@ -119,19 +134,19 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/deviceinformation\/deviceinfo\/id-6rxxc",
-                    "title" : "var id: ObjectIdentifier",
+                    "path" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues\/deviceinfo",
+                    "title" : "var deviceInfo: DeviceInfo",
                     "type" : "property"
                   }
                 ],
-                "path" : "\/documentation\/deviceinformation\/deviceinfo\/identifiable-implementations",
-                "title" : "Identifiable Implementations",
-                "type" : "symbol"
+                "path" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues",
+                "title" : "EnvironmentValues",
+                "type" : "extension"
               }
             ],
-            "path" : "\/documentation\/deviceinformation\/deviceinfo",
-            "title" : "DeviceInfo",
-            "type" : "struct"
+            "path" : "\/documentation\/deviceinformation\/swiftui",
+            "title" : "SwiftUI",
+            "type" : "extension"
           }
         ],
         "path" : "\/documentation\/deviceinformation",
@@ -143,6 +158,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 0
+    "patch" : 1
   }
 }

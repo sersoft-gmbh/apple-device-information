@@ -69,7 +69,10 @@
     ],
     "modules" : [
       {
-        "name" : "DeviceInformation"
+        "name" : "DeviceInformation",
+        "relatedModules" : [
+          "Swift"
+        ]
       }
     ],
     "role" : "symbol",

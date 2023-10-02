@@ -37,6 +37,12 @@
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo"
       ],
       "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI"
+      ],
+      "title" : "Extended Modules"
     }
   ],
   "variants" : [
@@ -97,6 +103,17 @@
   "title" : "DeviceInfo",
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation\/deviceinfo"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SwiftUI",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/swiftui"
 }
 }
 }

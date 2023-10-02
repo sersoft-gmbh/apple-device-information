@@ -107,7 +107,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/id-5pqoe",
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/id",
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/identifier",
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/name",
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/operatingSystem-swift.property"
@@ -123,8 +123,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/Equatable-Implementations",
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/Identifiable-Implementations"
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/Equatable-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -203,17 +202,6 @@
   "title" : "Equatable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation\/deviceinfo\/equatable-implementations"
-},
-"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/Identifiable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/Identifiable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Identifiable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/deviceinfo\/identifiable-implementations"
 },
 "doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/OperatingSystem-swift.struct": {
   "abstract" : [
@@ -294,7 +282,7 @@
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation\/deviceinfo\/current"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/id-5pqoe": {
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/id": {
   "abstract" : [
 
   ],
@@ -321,12 +309,12 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/id-5pqoe",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/id",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "id",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/deviceinfo\/id-5pqoe"
+  "url" : "\/documentation\/deviceinformation\/deviceinfo\/id"
 },
 "doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/identifier": {
   "abstract" : [
