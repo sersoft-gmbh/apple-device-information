@@ -1,6 +1,6 @@
 // Helpful pages:
 // - https://everymac.com/
-// - https://www.theiphonewiki.com/wiki/Main_Page
+// - https://theapplewiki.com/wiki/Main_Page
 extension DeviceInfo {
     static let _deviceIdentifierToNameMapping = [
         // MARK: iPhones
@@ -52,6 +52,10 @@ extension DeviceInfo {
         "iPhone14,8"       : "iPhone 14 Plus",
         "iPhone15,2"       : "iPhone 14 Pro",
         "iPhone15,3"       : "iPhone 14 Pro Max",
+        "iPhone15,4"       : "iPhone 15",
+        "iPhone15,5"       : "iPhone 15 Plus",
+        "iPhone16,1"       : "iPhone 15 Pro",
+        "iPhone16,2"       : "iPhone 15 Pro Max",
 
         // MARK: Watch
         "Watch1,1"         : "Apple Watch 38mm",
@@ -93,6 +97,11 @@ extension DeviceInfo {
         "Watch6,16"        : "Apple Watch Series 8 41mm (Cellular)",
         "Watch6,17"        : "Apple Watch Series 8 45mm (Cellular)",
         "Watch6,18"        : "Apple Watch Ultra 49mm",
+        "Watch7,1"         : "Apple Watch Series 9 41mm",
+        "Watch7,2"         : "Apple Watch Series 9 45mm",
+        "Watch7,3"         : "Apple Watch Series 9 41mm (Cellular)",
+        "Watch7,4"         : "Apple Watch Series 9 45mm (Cellular)",
+        "Watch7,5"         : "Apple Watch Ultra 2 49mm",
 
         // MARK: iPod
         "iPod1,1"          : "iPod Touch 1G",
@@ -208,6 +217,7 @@ extension DeviceInfo {
         "iProd8,1"         : "AirPods Pro (1st Gen)",
         "AirPodsPro1,1"    : "AirPods Pro (1st Gen)",
         "AirPodsPro1,2"    : "AirPods Pro (2nd Gen)",
+        "AirPodsPro2,1"    : "AirPods Pro (2nd Gen)",
         "iProd8,6"         : "AirPods Max",
         "AirPodsMax1,1"    : "AirPods Max",
 
@@ -231,6 +241,7 @@ extension DeviceInfo {
 
         "MacBookAir10,1"   : "MacBook Air 13\" M1",
         "Mac14,2"          : "MacBook Air 13\" M2",
+        "Mac14,15"         : "MacBook Air 15\" M2",
 
         "MacBookPro17,1"   : "MacBook Pro 13\" M1",
         "MacBookPro18,1"   : "MacBook Pro 16\" M1 Pro",
@@ -245,5 +256,9 @@ extension DeviceInfo {
 
         "Mac13,1"          : "Mac Studio M1 Max",
         "Mac13,2"          : "Mac Studio M1 Ultra",
+        "Mac14,13"         : "Mac Studio M2 Max",
+        "Mac14,14"         : "Mac Studio M2 Ultra",
+
+        "Mac14,8"          : "Mac Pro M2 Ultra",
     ]
 }

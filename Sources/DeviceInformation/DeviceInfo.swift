@@ -7,9 +7,9 @@ import class UIKit.UIDevice
 import Sysctl
 
 /// Contains the information about a device.
-public struct DeviceInfo: Equatable, Identifiable, Sendable {
+public struct DeviceInfo: Sendable, Equatable, Identifiable {
     /// Contains the information about the operating system of a device.
-    public struct OperatingSystem: Equatable, Sendable {
+    public struct OperatingSystem: Sendable, Equatable {
         /// The name of the operating system (e.g. iOS or macOS)
         public let name: String
         /// The version of the operating system (e.g. 14.3.0 or 11.0.0)
@@ -21,7 +21,7 @@ public struct DeviceInfo: Equatable, Identifiable, Sendable {
             // Keep up to date with https://github.com/apple/swift/blob/main/lib/Basic/LangOptions.cpp
 #if canImport(WatchKit) // os(watchOS)
             return WKInterfaceDevice.current().systemName
-#elseif canImport(UIKit) && !targetEnvironment(macCatalyst) // os(iOS) os(tvOS)
+#elseif canImport(UIKit) && !targetEnvironment(macCatalyst) // os(iOS) os(tvOS) os(visionOS)
             return UIDevice.current.systemName
 #elseif os(macOS) || targetEnvironment(macCatalyst)
             return "macOS"

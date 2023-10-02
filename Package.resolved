@@ -1,12 +1,30 @@
 {
   "pins" : [
     {
+      "identity" : "swift-docc-plugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-docc-plugin",
+      "state" : {
+        "revision" : "26ac5758409154cc448d7ab82389c520fa8a8247",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "swift-docc-symbolkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-docc-symbolkit",
+      "state" : {
+        "revision" : "b45d1f2ed151d057b54504d653e0da5552844e34",
+        "version" : "1.0.0"
+      }
+    },
+    {
       "identity" : "swift-sysctl",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sersoft-gmbh/swift-sysctl.git",
+      "location" : "https://github.com/sersoft-gmbh/swift-sysctl",
       "state" : {
-        "revision" : "71fd64ee84819bb19fbecfb36d5a4503726b6fb7",
-        "version" : "1.6.0"
+        "revision" : "e90ae8a93246d30624bb692d175dbb5ab0cce3ad",
+        "version" : "1.7.0"
       }
     }
   ],
