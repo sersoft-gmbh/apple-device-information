@@ -22,7 +22,22 @@ public struct DeviceInfo: Sendable, Equatable, Identifiable {
 #if canImport(WatchKit) // os(watchOS)
             return WKInterfaceDevice.current().systemName
 #elseif canImport(UIKit) && !targetEnvironment(macCatalyst) // os(iOS) os(tvOS) os(visionOS)
-            return UIDevice.current.systemName
+            @MainActor
+            func _access() -> String { UIDevice.current.systemName }
+            func _assumeIsolated<T>(_ work: @MainActor () -> T) -> T {
+                if #available(iOS 13, tvOS 13, *) {
+                    return MainActor.assumeIsolated(work)
+                } else {
+                    return withoutActuallyEscaping(work) {
+                        unsafeBitCast($0, to: (() -> T).self)()
+                    }
+                }
+            }
+            if Thread.isMainThread {
+                return _assumeIsolated(_access)
+            } else {
+                return DispatchQueue.main.sync { _assumeIsolated(_access) }
+            }
 #elseif os(macOS) || targetEnvironment(macCatalyst)
             return "macOS"
 #elseif os(Linux)
