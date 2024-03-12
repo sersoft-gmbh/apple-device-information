@@ -1,0 +1,199 @@
+{
+  "abstract" : [
+    {
+      "text" : "The identifier of the device (e.g. iPhone13,4)",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/identifier"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:17DeviceInformation0A4InfoV10identifierSSvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "identifier"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DeviceInformation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "identifier"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "identifier"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/deviceinformation\/deviceinfo\/identifier"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://DeviceInformation/documentation/DeviceInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DeviceInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information about a device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DeviceInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/identifier": {
+  "abstract" : [
+    {
+      "text" : "The identifier of the device (e.g. iPhone13,4)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "identifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/identifier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "identifier",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo\/identifier"
+}
+}
+}

@@ -1,0 +1,341 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct",
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/Equatable-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/!=(_:_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Swift",
+    "externalID" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:17DeviceInformation0A4InfoV15OperatingSystemV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "!="
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DeviceInformation",
+        "relatedModules" : [
+          "Swift"
+        ]
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Operator",
+    "symbolKind" : "op",
+    "title" : "!=(_:_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "!="
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "lhs"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "rhs"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/!=(_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://DeviceInformation/documentation/DeviceInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DeviceInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information about a device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DeviceInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/OperatingSystem-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Contains the information about the operating system of a device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OperatingSystem"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OperatingSystem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DeviceInfo.OperatingSystem",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/OperatingSystem-swift.struct/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/!=(_:_:)"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/OperatingSystem-swift.struct/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/equatable-implementations"
+}
+}
+}
