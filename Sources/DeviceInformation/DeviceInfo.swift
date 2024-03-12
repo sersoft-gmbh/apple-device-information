@@ -25,12 +25,17 @@ public struct DeviceInfo: Sendable, Equatable, Identifiable {
             @MainActor
             func _access() -> String { UIDevice.current.systemName }
             func _assumeIsolated<T>(_ work: @MainActor () -> T) -> T {
+#if swift(>=5.10)
                 if #available(iOS 13, tvOS 13, *) {
                     return MainActor.assumeIsolated(work)
-                } else {
-                    return withoutActuallyEscaping(work) {
-                        unsafeBitCast($0, to: (() -> T).self)()
-                    }
+                }
+#else
+                if #available(iOS 17, tvOS 17, *) {
+                    return MainActor.assumeIsolated(work)
+                }
+#endif
+                return withoutActuallyEscaping(work) {
+                    unsafeBitCast($0, to: (() -> T).self)()
                 }
             }
             if Thread.isMainThread {
