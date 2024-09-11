@@ -57,6 +57,10 @@
         "name" : "DeviceInformation"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "DeviceInfo.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/Sources\/DeviceInformation\/DeviceInfo.swift#L85"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
