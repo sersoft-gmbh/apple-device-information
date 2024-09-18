@@ -8,7 +8,7 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI"
+    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -21,7 +21,7 @@
     "role" : "collection",
     "roleHeading" : "Extended Module",
     "symbolKind" : "extension",
-    "title" : "SwiftUI"
+    "title" : "SwiftUICore"
   },
   "schemaVersion" : {
     "major" : 0,
@@ -33,8 +33,10 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Extended-Structures",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues"
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues"
       ],
       "title" : "Extended Structures"
     }
@@ -42,7 +44,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/deviceinformation\/swiftui"
+        "\/documentation\/deviceinformation\/swiftuicore"
       ],
       "traits" : [
         {
@@ -64,18 +66,18 @@
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore",
   "kind" : "symbol",
   "role" : "collection",
-  "title" : "SwiftUI",
+  "title" : "SwiftUICore",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI/EnvironmentValues": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore/EnvironmentValues": {
   "abstract" : [
 
   ],
@@ -94,7 +96,7 @@
       "text" : "EnvironmentValues"
     }
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -105,7 +107,7 @@
   "role" : "symbol",
   "title" : "EnvironmentValues",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues"
 }
 }
 }

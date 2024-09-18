@@ -33,6 +33,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Operators",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/!=(_:_:)"

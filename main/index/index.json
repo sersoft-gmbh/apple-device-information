@@ -1,4 +1,7 @@
 {
+  "includedArchiveIdentifiers" : [
+    "DeviceInformation"
+  ],
   "interfaceLanguages" : {
     "swift" : [
       {
@@ -134,18 +137,18 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues\/deviceinfo",
+                    "path" : "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues\/deviceinfo",
                     "title" : "var deviceInfo: DeviceInfo",
                     "type" : "property"
                   }
                 ],
-                "path" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues",
+                "path" : "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues",
                 "title" : "EnvironmentValues",
                 "type" : "extension"
               }
             ],
-            "path" : "\/documentation\/deviceinformation\/swiftui",
-            "title" : "SwiftUI",
+            "path" : "\/documentation\/deviceinformation\/swiftuicore",
+            "title" : "SwiftUICore",
             "type" : "extension"
           }
         ],
@@ -158,6 +161,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 1
+    "patch" : 2
   }
 }

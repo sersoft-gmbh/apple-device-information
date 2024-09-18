@@ -9,18 +9,18 @@
     "paths" : [
       [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI",
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues"
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore",
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues\/deviceInfo"
+    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues\/deviceInfo"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "SwiftUI",
+    "extendedModule" : "SwiftUICore",
     "externalID" : "s:7SwiftUI17EnvironmentValuesV17DeviceInformationE10deviceInfoAD0eH0Vvp",
     "fragments" : [
       {
@@ -49,7 +49,7 @@
       {
         "name" : "DeviceInformation",
         "relatedModules" : [
-          "SwiftUI"
+          "SwiftUICore"
         ]
       }
     ],
@@ -85,7 +85,7 @@
     ],
     "remoteSource" : {
       "fileName" : "DeviceInfo.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/Sources\/DeviceInformation\/DeviceInfo.swift#L129"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/Sources\/DeviceInformation\/DeviceInfo.swift#L128"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
@@ -154,7 +154,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/deviceinformation\/swiftui\/environmentvalues\/deviceinfo"
+        "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues\/deviceinfo"
       ],
       "traits" : [
         {
@@ -210,18 +210,18 @@
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation\/deviceinfo"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore",
   "kind" : "symbol",
   "role" : "collection",
-  "title" : "SwiftUI",
+  "title" : "SwiftUICore",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI/EnvironmentValues": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore/EnvironmentValues": {
   "abstract" : [
 
   ],
@@ -240,7 +240,7 @@
       "text" : "EnvironmentValues"
     }
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -251,9 +251,9 @@
   "role" : "symbol",
   "title" : "EnvironmentValues",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI/EnvironmentValues/deviceInfo": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore/EnvironmentValues/deviceInfo": {
   "abstract" : [
     {
       "text" : "The device info of the current device.",
@@ -283,12 +283,12 @@
       "text" : "DeviceInfo"
     }
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues\/deviceInfo",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues\/deviceInfo",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "deviceInfo",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues\/deviceinfo"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues\/deviceinfo"
 }
 }
 }

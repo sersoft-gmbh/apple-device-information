@@ -32,6 +32,7 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Operators",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/!=(_:_:)"

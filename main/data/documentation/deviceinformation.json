@@ -33,14 +33,18 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo"
       ],
       "title" : "Structures"
     },
     {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI"
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore"
       ],
       "title" : "Extended Modules"
     }
@@ -104,16 +108,16 @@
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation\/deviceinfo"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore",
   "kind" : "symbol",
   "role" : "collection",
-  "title" : "SwiftUI",
+  "title" : "SwiftUICore",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore"
 }
 }
 }

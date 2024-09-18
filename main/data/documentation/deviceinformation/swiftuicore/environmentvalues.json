@@ -3,17 +3,17 @@
     "paths" : [
       [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI"
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues"
+    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "SwiftUI",
+    "extendedModule" : "SwiftUICore",
     "externalID" : "s:e:s:7SwiftUI17EnvironmentValuesV17DeviceInformationE10deviceInfoAD0eH0Vvp",
     "fragments" : [
       {
@@ -34,7 +34,7 @@
       {
         "name" : "DeviceInformation",
         "relatedModules" : [
-          "SwiftUI"
+          "SwiftUICore"
         ]
       }
     ],
@@ -89,8 +89,10 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues\/deviceInfo"
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues\/deviceInfo"
       ],
       "title" : "Instance Properties"
     }
@@ -98,7 +100,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/deviceinformation\/swiftui\/environmentvalues"
+        "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues"
       ],
       "traits" : [
         {
@@ -120,18 +122,18 @@
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore",
   "kind" : "symbol",
   "role" : "collection",
-  "title" : "SwiftUI",
+  "title" : "SwiftUICore",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI/EnvironmentValues": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore/EnvironmentValues": {
   "abstract" : [
 
   ],
@@ -150,7 +152,7 @@
       "text" : "EnvironmentValues"
     }
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -161,9 +163,9 @@
   "role" : "symbol",
   "title" : "EnvironmentValues",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues"
 },
-"doc://DeviceInformation/documentation/DeviceInformation/SwiftUI/EnvironmentValues/deviceInfo": {
+"doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore/EnvironmentValues/deviceInfo": {
   "abstract" : [
     {
       "text" : "The device info of the current device.",
@@ -193,12 +195,12 @@
       "text" : "DeviceInfo"
     }
   ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUI\/EnvironmentValues\/deviceInfo",
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/SwiftUICore\/EnvironmentValues\/deviceInfo",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "deviceInfo",
   "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/swiftui\/environmentvalues\/deviceinfo"
+  "url" : "\/documentation\/deviceinformation\/swiftuicore\/environmentvalues\/deviceinfo"
 }
 }
 }

@@ -104,6 +104,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/build",
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/name",
@@ -112,6 +114,7 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/Equatable-Implementations"
