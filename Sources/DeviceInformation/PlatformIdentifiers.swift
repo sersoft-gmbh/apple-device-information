@@ -56,6 +56,10 @@ extension DeviceInfo {
         "iPhone15,5"       : "iPhone 15 Plus",
         "iPhone16,1"       : "iPhone 15 Pro",
         "iPhone16,2"       : "iPhone 15 Pro Max",
+        "iPhone17,3"       : "iPhone 16",
+        "iPhone17,4"       : "iPhone 16 Plus",
+        "iPhone17,1"       : "iPhone 16 Pro",
+        "iPhone17,2"       : "iPhone 16 Pro Max",
 
         // MARK: Watch
         "Watch1,1"         : "Apple Watch 38mm",
@@ -102,6 +106,10 @@ extension DeviceInfo {
         "Watch7,3"         : "Apple Watch Series 9 41mm (Cellular)",
         "Watch7,4"         : "Apple Watch Series 9 45mm (Cellular)",
         "Watch7,5"         : "Apple Watch Ultra 2 49mm",
+        "Watch7,8"         : "Apple Watch Series 10 42mm",
+        "Watch7,9"         : "Apple Watch Series 10 46mm",
+        "Watch7,10"        : "Apple Watch Series 10 42mm (Cellular)",
+        "Watch7,11"        : "Apple Watch Series 10 46mm (Cellular)",
 
         // MARK: iPod
         "iPod1,1"          : "iPod Touch 1G",
@@ -229,7 +237,6 @@ extension DeviceInfo {
 
         // MARK: AirTags
         "AirTag1,1"        : "AirTags",
-
 
         // MARK: Macs
         "iMac21,1"         : "iMac 24\" M1",

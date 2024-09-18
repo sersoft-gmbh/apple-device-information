@@ -24,7 +24,7 @@ public struct DeviceInfo: Sendable, Equatable, Identifiable {
 #elseif canImport(UIKit) && !targetEnvironment(macCatalyst) // os(iOS) os(tvOS) os(visionOS)
             @MainActor
             func _access() -> String { UIDevice.current.systemName }
-            func _assumeIsolated<T>(_ work: @MainActor () -> T) -> T {
+            func _assumeIsolated<T: Sendable>(_ work: @MainActor () -> T) -> T {
 #if swift(>=5.10)
                 if #available(iOS 13, tvOS 13, *) {
                     return MainActor.assumeIsolated(work)
@@ -39,9 +39,9 @@ public struct DeviceInfo: Sendable, Equatable, Identifiable {
                 }
             }
             if Thread.isMainThread {
-                return _assumeIsolated(_access)
+                return _assumeIsolated { _access() }
             } else {
-                return DispatchQueue.main.sync { _assumeIsolated(_access) }
+                return DispatchQueue.main.sync { _assumeIsolated { _access() } }
             }
 #elseif os(macOS) || targetEnvironment(macCatalyst)
             return "macOS"
@@ -106,8 +106,7 @@ extension DeviceInfo {
 
 #if arch(arm64) || arch(x86_64)
 #if canImport(Combine) && canImport(SwiftUI)
-import Combine
-import SwiftUI
+public import SwiftUI
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 extension DeviceInfo {
