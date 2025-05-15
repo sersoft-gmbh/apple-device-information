@@ -10,8 +10,7 @@
       [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct",
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/Equatable-Implementations"
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct"
       ]
     ]
   },
@@ -464,17 +463,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/!=(_:_:)"
-},
-"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/OperatingSystem-swift.struct/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct\/equatable-implementations"
 }
 }
 }

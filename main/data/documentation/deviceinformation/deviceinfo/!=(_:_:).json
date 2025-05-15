@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
-        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/Equatable-Implementations"
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo"
       ]
     ]
   },
@@ -429,17 +428,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation\/deviceinfo\/!=(_:_:)"
-},
-"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/deviceinformation\/deviceinfo\/equatable-implementations"
 }
 }
 }
