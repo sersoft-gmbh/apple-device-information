@@ -1,0 +1,266 @@
+{
+  "abstract" : [
+    {
+      "text" : "The operating system information.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
+        "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/operatingSystem-swift.property"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:17DeviceInformation0A4InfoV15operatingSystemAC09OperatingE0Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "operatingSystem"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:17DeviceInformation0A4InfoV",
+        "text" : "DeviceInfo"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:17DeviceInformation0A4InfoV15OperatingSystemV",
+        "text" : "OperatingSystem"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "DeviceInformation"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "DeviceInfo.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/blob\/refs\/tags\/1.10.0\/Sources\/DeviceInformation\/DeviceInfo.swift#L85"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "operatingSystem"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "operatingSystem"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:17DeviceInformation0A4InfoV",
+              "text" : "DeviceInfo"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:17DeviceInformation0A4InfoV15OperatingSystemV",
+              "text" : "OperatingSystem"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.property"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://DeviceInformation/documentation/DeviceInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "DeviceInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information about a device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DeviceInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/OperatingSystem-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Contains the information about the operating system of a device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OperatingSystem"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OperatingSystem"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DeviceInfo.OperatingSystem",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.struct"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/operatingSystem-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The operating system information.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "operatingSystem"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17DeviceInformation0A4InfoV",
+      "text" : "DeviceInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17DeviceInformation0A4InfoV15OperatingSystemV",
+      "text" : "OperatingSystem"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/operatingSystem-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "operatingSystem",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo\/operatingsystem-swift.property"
+}
+}
+}
