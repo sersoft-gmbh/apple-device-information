@@ -1,11 +1,8 @@
 import XCTest
 import Sysctl
 @testable import DeviceInformation
-#if arch(arm64) || arch(x86_64)
-#if canImport(Combine) && canImport(SwiftUI)
-import Combine
+#if canImport(SwiftUI)
 import SwiftUI
-#endif
 #endif
 
 final class DeviceInfoTests: XCTestCase {
@@ -26,13 +23,11 @@ final class DeviceInfoTests: XCTestCase {
         XCTAssertEqual(deviceInfo.operatingSystem.build, SystemControl().kernel.osBuild)
     }
 
-#if arch(arm64) || arch(x86_64)
-#if canImport(Combine) && canImport(SwiftUI)
+#if canImport(SwiftUI)
     func testSwiftUIEnvironment() throws {
         guard #available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
         else { throw XCTSkip() }
         XCTAssertEqual(EnvironmentValues().deviceInfo, .current)
     }
-#endif
 #endif
 }
