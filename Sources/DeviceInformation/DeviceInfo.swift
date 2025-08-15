@@ -1,15 +1,15 @@
 import Foundation
 #if canImport(WatchKit)
-import class WatchKit.WKInterfaceDevice
+fileprivate import class WatchKit.WKInterfaceDevice
 #elseif canImport(UIKit)
-import class UIKit.UIDevice
+fileprivate import class UIKit.UIDevice
 #endif
 import Sysctl
 
 /// Contains the information about a device.
-public struct DeviceInfo: Sendable, Equatable, Identifiable {
+public struct DeviceInfo: Sendable, Hashable, Identifiable {
     /// Contains the information about the operating system of a device.
-    public struct OperatingSystem: Sendable, Equatable {
+    public struct OperatingSystem: Sendable, Hashable {
         /// The name of the operating system (e.g. iOS or macOS)
         public let name: String
         /// The version of the operating system (e.g. 14.3.0 or 11.0.0)
@@ -104,10 +104,10 @@ extension DeviceInfo {
     public static let current = DeviceInfo()
 }
 
-#if arch(arm64) || arch(x86_64)
-#if canImport(Combine) && canImport(SwiftUI)
+#if canImport(SwiftUI)
 public import SwiftUI
 
+#if compiler(<6)
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 extension DeviceInfo {
     @usableFromInline
@@ -120,12 +120,18 @@ extension DeviceInfo {
         static var defaultValue: Value { .current }
     }
 }
+#endif
 
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 extension SwiftUI.EnvironmentValues {
+#if compiler(>=6)
+    /// The device info of the current device.
+    @Entry
+    public var deviceInfo: DeviceInfo = .current
+#else
     /// The device info of the current device.
     @inlinable
     public var deviceInfo: DeviceInfo { self[DeviceInfo.EnvKey.self] }
-}
 #endif
+}
 #endif

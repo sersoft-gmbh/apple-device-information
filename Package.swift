@@ -7,6 +7,7 @@ let swiftSettings: Array<SwiftSetting> = [
     .swiftLanguageMode(.v6),
     .enableUpcomingFeature("ExistentialAny"),
     .enableUpcomingFeature("InternalImportsByDefault"),
+    .enableUpcomingFeature("MemberImportVisibility"),
 ]
 
 let package = Package(
