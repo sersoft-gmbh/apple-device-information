@@ -85,7 +85,7 @@
     ],
     "remoteSource" : {
       "fileName" : "DeviceInfo.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/blob\/refs\/heads\/main\/Sources\/DeviceInformation\/DeviceInfo.swift#L128"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/blob\/refs\/heads\/main\/Sources\/DeviceInformation\/DeviceInfo.swift#L130"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
@@ -132,6 +132,14 @@
             {
               "kind" : "keyword",
               "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
             },
             {
               "kind" : "text",
