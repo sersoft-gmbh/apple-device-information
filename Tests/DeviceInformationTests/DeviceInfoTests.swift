@@ -1,33 +1,37 @@
-import XCTest
+import Foundation
+import Testing
 import Sysctl
 @testable import DeviceInformation
 #if canImport(SwiftUI)
 import SwiftUI
+fileprivate let swiftUIAvailable = true
+#else
+fileprivate let swiftUIAvailable = false
 #endif
 
-final class DeviceInfoTests: XCTestCase {
-    func testCurrentDeviceInfo() {
+@Suite
+struct DeviceInfoTests {
+    @Test
+    func currentDeviceInfo() {
         let deviceInfo = DeviceInfo.current
 #if os(macOS) || targetEnvironment(macCatalyst)
-        XCTAssertEqual(deviceInfo.identifier, SystemControl().hardware.model)
+        #expect(deviceInfo.identifier == SystemControl().hardware.model)
 #else
-        XCTAssertEqual(deviceInfo.identifier, SystemControl().hardware.machine)
+        #expect(deviceInfo.identifier == SystemControl().hardware.machine)
 #endif
-        XCTAssertEqual(deviceInfo.id, deviceInfo.identifier)
-        XCTAssertEqual(deviceInfo.name,
-                       DeviceInfo._deviceIdentifierToNameMapping[deviceInfo.identifier])
-        XCTAssertEqual(deviceInfo.operatingSystem.name, DeviceInfo.OperatingSystem.currentName())
+        #expect(deviceInfo.id == deviceInfo.identifier)
+        #expect(deviceInfo.name == DeviceInfo._deviceIdentifierToNameMapping[deviceInfo.identifier])
+        #expect(deviceInfo.operatingSystem.name == DeviceInfo.OperatingSystem.currentName())
         let osVersion = ProcessInfo.processInfo.operatingSystemVersion
-        XCTAssertEqual(deviceInfo.operatingSystem.version,
-                       "\(osVersion.majorVersion).\(osVersion.minorVersion).\(osVersion.patchVersion)")
-        XCTAssertEqual(deviceInfo.operatingSystem.build, SystemControl().kernel.osBuild)
+        #expect(deviceInfo.operatingSystem.version == "\(osVersion.majorVersion).\(osVersion.minorVersion).\(osVersion.patchVersion)")
+        #expect(deviceInfo.operatingSystem.build == SystemControl().kernel.osBuild)
     }
 
+    @Test(.enabled(if: swiftUIAvailable))
+    @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
+    func swiftUIEnvironment() {
 #if canImport(SwiftUI)
-    func testSwiftUIEnvironment() throws {
-        guard #available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
-        else { throw XCTSkip() }
-        XCTAssertEqual(EnvironmentValues().deviceInfo, .current)
-    }
+        #expect(EnvironmentValues().deviceInfo == .current)
 #endif
+    }
 }

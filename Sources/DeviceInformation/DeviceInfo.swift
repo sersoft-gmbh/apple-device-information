@@ -25,17 +25,15 @@ public struct DeviceInfo: Sendable, Hashable, Identifiable {
             @MainActor
             func _access() -> String { UIDevice.current.systemName }
             func _assumeIsolated<T: Sendable>(_ work: @MainActor () -> T) -> T {
-#if swift(>=5.10)
                 if #available(iOS 13, tvOS 13, *) {
                     return MainActor.assumeIsolated(work)
                 }
-#else
-                if #available(iOS 17, tvOS 17, *) {
-                    return MainActor.assumeIsolated(work)
-                }
-#endif
                 return withoutActuallyEscaping(work) {
+#if compiler(>=6.2)
+                    unsafe unsafeBitCast($0, to: (() -> T).self)()
+#else
                     unsafeBitCast($0, to: (() -> T).self)()
+#endif
                 }
             }
             if Thread.isMainThread {
@@ -107,31 +105,10 @@ extension DeviceInfo {
 #if canImport(SwiftUI)
 public import SwiftUI
 
-#if compiler(<6)
-@available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
-extension DeviceInfo {
-    @usableFromInline
-    @frozen
-    enum EnvKey: EnvironmentKey {
-        @usableFromInline
-        typealias Value = DeviceInfo
-
-        @inlinable
-        static var defaultValue: Value { .current }
-    }
-}
-#endif
-
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 extension SwiftUI.EnvironmentValues {
-#if compiler(>=6)
     /// The device info of the current device.
     @Entry
     public var deviceInfo: DeviceInfo = .current
-#else
-    /// The device info of the current device.
-    @inlinable
-    public var deviceInfo: DeviceInfo { self[DeviceInfo.EnvKey.self] }
-#endif
 }
 #endif

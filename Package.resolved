@@ -1,5 +1,5 @@
 {
-  "originHash" : "14dfa4da1cdde8d3936141f5335facf0ce6a51a4d8d9eb647ee6a6d2ac10cb29",
+  "originHash" : "82b8fc81d81f711da657873d44d5e2212cc8687776897922c000be2e7731ade6",
   "pins" : [
     {
       "identity" : "swift-docc-plugin",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sersoft-gmbh/swift-sysctl",
       "state" : {
-        "revision" : "0ef1afca942d5467837d9bd5f497e27eb252315d",
-        "version" : "1.10.0"
+        "revision" : "8d9559eb37cfaf3c03b3b48b03c6054da8b5839e",
+        "version" : "1.11.1"
       }
     }
   ],
