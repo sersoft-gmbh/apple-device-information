@@ -18,6 +18,7 @@ public struct DeviceInfo: Sendable, Hashable, Identifiable {
         public let build: String
 
         static func currentName() -> String {
+#if compiler(>=6.0) // The compiler(6.0) check here is needed due to a bug in Swift 6.0. Remove this as of 6.1.
             // Keep up to date with https://github.com/apple/swift/blob/main/lib/Basic/LangOptions.cpp
 #if canImport(WatchKit) // os(watchOS)
             return WKInterfaceDevice.current().systemName
@@ -63,6 +64,7 @@ public struct DeviceInfo: Sendable, Hashable, Identifiable {
             return "Web Assembly"
 #else
             return "Unknown"
+#endif
 #endif
         }
 
