@@ -6,22 +6,12 @@
 [![codecov](https://codecov.io/gh/sersoft-gmbh/apple-device-information/branch/main/graph/badge.svg?token=CI3ZFQGY7C)](https://codecov.io/gh/sersoft-gmbh/apple-device-information)
 [![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/apple-device-information)
 
-A database of device information which includes a mapping of device model identifiers to names.
-
 ## Installation
 
 Add the following dependency to your `Package.swift`:
 ```swift
 .package(url: "https://github.com/sersoft-gmbh/apple-device-information.git", from: "1.0.0"),
 ```
-
-## Usage
-
-### `DeviceInfo`
-
-Simply access `DeviceInfo.current` and you have access to all information this package currently offers.
-For a more detailed documentation of the fields, please have a look at the header docs.
-
 
 ## Documentation
 
