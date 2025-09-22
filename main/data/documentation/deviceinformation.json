@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Easily access device information - including a mapping of device model identifiers to names.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -23,6 +29,81 @@
     "symbolKind" : "module",
     "title" : "DeviceInformation"
   },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Installation",
+          "level" : 2,
+          "text" : "Installation",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Add the following dependency to your ",
+              "type" : "text"
+            },
+            {
+              "code" : "Package.swift",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ":",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            ".package(url: \"https:\/\/github.com\/sersoft-gmbh\/apple-device-information.git\", from: \"1.0.0\"),"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "Usage",
+          "level" : 2,
+          "text" : "Usage",
+          "type" : "heading"
+        },
+        {
+          "anchor" : "docDeviceInformationdocumentationDeviceInformationDeviceInfo",
+          "level" : 3,
+          "text" : "``doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo``",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Simply access ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/current",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " and you have access to all information this package currently offers.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "Please check the documentation of each field to get more information.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -65,7 +146,10 @@
 "references": {
 "doc://DeviceInformation/documentation/DeviceInformation": {
   "abstract" : [
-
+    {
+      "text" : "Easily access device information - including a mapping of device model identifiers to names.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
   "kind" : "symbol",
@@ -107,6 +191,51 @@
   "title" : "DeviceInfo",
   "type" : "topic",
   "url" : "\/documentation\/deviceinformation\/deviceinfo"
+},
+"doc://DeviceInformation/documentation/DeviceInformation/DeviceInfo/current": {
+  "abstract" : [
+    {
+      "text" : "The information for the current device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "current"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17DeviceInformation0A4InfoV",
+      "text" : "DeviceInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/current",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "current",
+  "type" : "topic",
+  "url" : "\/documentation\/deviceinformation\/deviceinfo\/current"
 },
 "doc://DeviceInformation/documentation/DeviceInformation/SwiftUICore": {
   "abstract" : [

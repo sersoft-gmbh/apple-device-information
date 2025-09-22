@@ -120,7 +120,10 @@
 "references": {
 "doc://DeviceInformation/documentation/DeviceInformation": {
   "abstract" : [
-
+    {
+      "text" : "Easily access device information - including a mapping of device model identifiers to names.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
   "kind" : "symbol",

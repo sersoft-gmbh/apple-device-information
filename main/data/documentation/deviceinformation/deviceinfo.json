@@ -88,7 +88,8 @@
         "doc:\/\/DeviceInformation\/SQ",
         "doc:\/\/DeviceInformation\/SH",
         "doc:\/\/DeviceInformation\/s12IdentifiableP",
-        "doc:\/\/DeviceInformation\/s8SendableP"
+        "doc:\/\/DeviceInformation\/s8SendableP",
+        "doc:\/\/DeviceInformation\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -166,7 +167,10 @@
 },
 "doc://DeviceInformation/documentation/DeviceInformation": {
   "abstract" : [
-
+    {
+      "text" : "Easily access device information - including a mapping of device model identifiers to names.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
   "kind" : "symbol",
@@ -468,6 +472,11 @@
 "doc://DeviceInformation/s12IdentifiableP": {
   "identifier" : "doc:\/\/DeviceInformation\/s12IdentifiableP",
   "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+},
+"doc://DeviceInformation/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/DeviceInformation\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
   "type" : "unresolvable"
 },
 "doc://DeviceInformation/s8SendableP": {

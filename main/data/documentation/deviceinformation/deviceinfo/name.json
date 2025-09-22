@@ -62,7 +62,7 @@
     ],
     "remoteSource" : {
       "fileName" : "DeviceInfo.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/blob\/refs\/heads\/main\/Sources\/DeviceInformation\/DeviceInfo.swift#L83"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/blob\/refs\/heads\/main\/Sources\/DeviceInformation\/DeviceInfo.swift#L81"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
@@ -135,7 +135,10 @@
 "references": {
 "doc://DeviceInformation/documentation/DeviceInformation": {
   "abstract" : [
-
+    {
+      "text" : "Easily access device information - including a mapping of device model identifiers to names.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation",
   "kind" : "symbol",
