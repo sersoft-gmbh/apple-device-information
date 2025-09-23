@@ -11,8 +11,7 @@ Add the following dependency to your `Package.swift`:
 
 ## Usage
 
-### ``DeviceInfo``
+### Device Information
 
 Simply access ``DeviceInfo/current`` and you have access to all information this package currently offers.
 Please check the documentation of each field to get more information.
-
