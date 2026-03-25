@@ -65,6 +65,7 @@ extension DeviceInfo {
         "iPhone18,1"       : "iPhone 17 Pro",
         "iPhone18,2"       : "iPhone 17 Pro Max",
         "iPhone18,4"       : "iPhone Air",
+        "iPhone18,5"       : "iPhone 17e",
 
         // MARK: Watch
         "Watch1,1"         : "Apple Watch 38mm",
@@ -231,6 +232,14 @@ extension DeviceInfo {
         "iPad16,4"         : "iPad Pro 11\" (M4) (Cellular)",
         "iPad16,5"         : "iPad Pro 13\" (M4) (WiFi)",
         "iPad16,6"         : "iPad Pro 13\" (M4) (Cellular)",
+        "iPad16,8"         : "iPad Air M4 11\" (WiFi)",
+        "iPad16,9"         : "iPad Air M4 11\" (Cellular)",
+        "iPad16,10"        : "iPad Air M4 13\" (WiFi)",
+        "iPad16,11"        : "iPad Air M4 13\" (Cellular)",
+        "iPad17,1"         : "iPad Pro 11\" (M5) (WiFi)",
+        "iPad17,2"         : "iPad Pro 11\" (M5) (Cellular)",
+        "iPad17,3"         : "iPad Pro 13\" (M5) (WiFi)",
+        "iPad17,4"         : "iPad Pro 13\" (M5) (Cellular)",
 
         // MARK: AppleTV
         "AppleTV1,1"       : "Apple TV 1G",
@@ -244,6 +253,7 @@ extension DeviceInfo {
 
         // MARK: Vision Pro
         "RealityDevice14,1": "Apple Vision Pro",
+        "RealityDevice17,1": "Apple Vision Pro (M5)",
 
         // MARK: Simulator
         "i386"             : "Simulator",
@@ -294,6 +304,8 @@ extension DeviceInfo {
         "Mac16,10"         : "Mac Mini M4",
         "Mac16,11"         : "Mac Mini M4 Pro",
 
+        "Mac17,5"          : "MacBook Neo",
+
         "MacBookAir10,1"   : "MacBook Air 13\" M1",
         "Mac14,2"          : "MacBook Air 13\" M2",
         "Mac14,15"         : "MacBook Air 15\" M2",
@@ -301,6 +313,8 @@ extension DeviceInfo {
         "Mac15,13"         : "MacBook Air 15\" M3",
         "Mac16,12"         : "MacBook Air 13\" M4",
         "Mac16,13"         : "MacBook Air 15\" M4",
+        "Mac17,3"          : "MacBook Air 13\" M5",
+        "Mac17,4"          : "MacBook Air 15\" M5",
 
         "MacBookPro17,1"   : "MacBook Pro 13\" M1",
         "MacBookPro18,1"   : "MacBook Pro 16\" M1 Pro",
@@ -324,6 +338,11 @@ extension DeviceInfo {
         "Mac16,6"          : "MacBook Pro 14\" M4 Max",
         "Mac16,7"          : "MacBook Pro 16\" M4 Pro",
         "Mac16,8"          : "MacBook Pro 14\" M4 Pro",
+        "Mac17,2"          : "MacBook Pro 14\" M5",
+        "Mac17,6"          : "MacBook Pro 16\" M5 Max",
+        "Mac17,7"          : "MacBook Pro 14\" M5 Max",
+        "Mac17,8"          : "MacBook Pro 16\" M5 Pro",
+        "Mac17,9"          : "MacBook Pro 14\" M5 Pro",
 
         "Mac13,1"          : "Mac Studio M1 Max",
         "Mac13,2"          : "Mac Studio M1 Ultra",
