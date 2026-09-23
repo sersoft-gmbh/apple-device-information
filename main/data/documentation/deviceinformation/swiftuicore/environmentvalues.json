@@ -14,7 +14,7 @@
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftUICore",
-    "externalID" : "s:e:s:7SwiftUI17EnvironmentValuesV17DeviceInformationE16__Key_deviceInfo33_50EAE0A9A52D3854F70F44A0A35791DBLLV",
+    "externalID" : "s:e:s:7SwiftUI17EnvironmentValuesV17DeviceInformationE10deviceInfoAD0eH0Vvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -23,6 +23,14 @@
       {
         "kind" : "text",
         "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SwiftUI"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
       },
       {
         "kind" : "identifier",
@@ -67,6 +75,14 @@
             {
               "kind" : "text",
               "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SwiftUI"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
             },
             {
               "kind" : "typeIdentifier",
@@ -148,6 +164,14 @@
     {
       "kind" : "text",
       "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftUI"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
     },
     {
       "kind" : "identifier",

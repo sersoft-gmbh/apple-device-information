@@ -449,15 +449,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:17DeviceInformation0A4InfoV",
-      "text" : "DeviceInfo"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:17DeviceInformation0A4InfoV15OperatingSystemV",
       "text" : "OperatingSystem"
     }

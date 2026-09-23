@@ -39,15 +39,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:17DeviceInformation0A4InfoV",
-        "text" : "DeviceInfo"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:17DeviceInformation0A4InfoV15OperatingSystemV",
         "text" : "OperatingSystem"
       }
@@ -59,7 +50,7 @@
     ],
     "remoteSource" : {
       "fileName" : "DeviceInfo.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/blob\/refs\/heads\/main\/Sources\/DeviceInformation\/DeviceInfo.swift#L85"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/apple-device-information\/blob\/refs\/heads\/main\/Sources\/DeviceInformation\/DeviceInfo.swift#L83"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
@@ -92,16 +83,6 @@
             {
               "kind" : "text",
               "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:17DeviceInformation0A4InfoV",
-              "text" : "DeviceInfo"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/DeviceInformation\/documentation\/DeviceInformation\/DeviceInfo\/OperatingSystem-swift.struct",
@@ -242,15 +223,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:17DeviceInformation0A4InfoV",
-      "text" : "DeviceInfo"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
