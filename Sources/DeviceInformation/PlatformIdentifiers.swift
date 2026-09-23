@@ -1,6 +1,7 @@
 // Helpful pages:
 // - https://everymac.com/
 // - https://theapplewiki.com/wiki/Main_Page
+// - https://appledb.dev/
 extension DeviceInfo {
     static let _deviceIdentifierToNameMapping = [
         // MARK: iPhones
@@ -66,6 +67,10 @@ extension DeviceInfo {
         "iPhone18,2"       : "iPhone 17 Pro Max",
         "iPhone18,4"       : "iPhone Air",
         "iPhone18,5"       : "iPhone 17e",
+        "iPhone19,2"       : "iPhone 18 Pro",
+        "iPhone19,3"       : "iPhone 18 Pro Max",
+        "iPhone19,4"       : "iPhone Duo",
+        "iPhone19,7"       : "iPhone 18 Pro Max",
 
         // MARK: Watch
         "Watch1,1"         : "Apple Watch 38mm",
@@ -125,6 +130,11 @@ extension DeviceInfo {
         "Watch7,18"        : "Apple Watch Series 11 46mm",
         "Watch7,19"        : "Apple Watch Series 11 42mm (Cellular)",
         "Watch7,20"        : "Apple Watch Series 11 46mm (Cellular)",
+        "Watch8,1"         : "Apple Watch Ultra 4 (49 mm)",
+        "Watch8,2"         : "Apple Watch Series 12 42mm",
+        "Watch8,3"         : "Apple Watch Series 12 46mm",
+        "Watch8,4"         : "Apple Watch Series 12 42mm (Cellular)",
+        "Watch8,5"         : "Apple Watch Series 12 46mm (Cellular)",
 
         // MARK: iPod
         "iPod1,1"          : "iPod Touch 1G",
@@ -279,7 +289,12 @@ extension DeviceInfo {
         "AirPodsPro2,1"    : "AirPods Pro (2nd Gen)",
         "iProd8,6"         : "AirPods Max",
         "AirPodsMax1,1"    : "AirPods Max",
+        "AirPods3,4"       : "AirPods Pro (3rd Gen)",
         "AirPodsPro1,3"    : "AirPods Pro (3rd Gen)",
+        "AirPods3,6"       : "AirPods Max 2",
+        "AirPodsMax1,2"    : "AirPods Max 2",
+        "AirPods3,7"       : "AirPods 5",
+        "AirPods3,8"       : "AirPods 5",
 
         // MARK: HomePod
         "AudioAccessory1,1": "HomePod",
@@ -303,6 +318,8 @@ extension DeviceInfo {
         "Mac14,12"         : "Mac Mini M2 Pro",
         "Mac16,10"         : "Mac Mini M4",
         "Mac16,11"         : "Mac Mini M4 Pro",
+        "Mac17,16"         : "Mac Mini M5 Pro",
+        "Mac18,5"          : "Mac Mini M6",
 
         "Mac17,5"          : "MacBook Neo",
 
@@ -350,6 +367,8 @@ extension DeviceInfo {
         "Mac14,14"         : "Mac Studio M2 Ultra",
         "Mac15,14"         : "Mac Studio M3 Ultra",
         "Mac16,9"          : "Mac Studio M4 Max",
+        "Mac17,14"         : "Mac Studio M5 Max",
+        "Mac17,15"         : "Mac Studio M5 Ultra",
 
         "Mac14,8"          : "Mac Pro M2 Ultra",
     ]
